@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="favico.con.jpg">
+</head>
+<body bgcolor="#FDD69F">
+<h1> Rellena el formulario </h1>
+	<form action="signup.html" method="post" id="signup"  target="_blank">
+
+	<fieldset>
+
+    <legend>Información personal</legend>
+
+
+  		<p> Ingresa tu nombre completo: <input type="text" name="nombrecompleto">
+  		</p>
+
+  		<p> Ingresa tu correo e-mail: <input type="text" name="correo">
+  		</p>
+
+  		 <p> Deja un mensaje:<br>
+  		 	<textarea name="mensaje"></textarea>
+
+  		</p>
+  		</fieldset>
+
+  	<fieldset>
+
+    <legend>Selecciona el plan</legend>
+
+
+    <input type="radio" name="cuando" value="pestable" checked> Plan estable<br>
+
+    <input type="radio" name="cuando" value="Plan8"> Plan 8 horas <br>
+    <input type="radio" name="cuando" value="PlanN"> Plan Noche <br>
+    <input type="radio" name="cuando" value="PlanEW"> Energy Wallet
+	</fieldset>
+
+  <p><input type="checkbox" name="copia" checked> Enviarme una copia</p>
+
+  <p>
+
+    <input type="reset" value="Reiniciar el formulario">
+
+    <button type="submit" class="full">Eviar Mensaje</button>
+
+  </p>
+
+	</form>
+</body>
+</html>
